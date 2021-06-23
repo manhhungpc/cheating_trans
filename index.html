@@ -10,36 +10,47 @@
 </head>
 
 <body>
-    <div class="container">
-        <input type="text" id="input-text">
-        <div style="width: 200px">
-            <input type="image" src="./img/a.svg" class="btn" id="a" value="a" onClick=clikme(value)>
-            <input type="image" src="./img/b.svg" class="btn" id="b" value="b" onClick=clikme(value)>
-            <input type="image" src="./img/c.svg" class="btn" id="c" value="c" onClick=clikme(value)>
-            <input type="image" src="./img/d.svg" class="btn" id="d" value="d" onClick=clikme(value)>
-            <input type="image" src="./img/e.svg" class="btn" id="e" value="e" onClick=clikme(value)>
-            <input type="image" src="./img/f.svg" class="btn" id="f" value="f" onClick=clikme(value)>
-            <input type="image" src="./img/g.svg" class="btn" id="g" value="g" onClick=clikme(value)>
-            <input type="image" src="./img/h.svg" class="btn" id="h" value="h" onClick=clikme(value)>
-            <input type="image" src="./img/i.svg" class="btn" id="i" value="i" onClick=clikme(value)>
-            <input type="image" src="./img/k.svg" class="btn" id="k" value="k" onClick=clikme(value)>
-            <input type="image" src="./img/l.svg" class="btn" id="l" value="l" onClick=clikme(value)>
-            <input type="image" src="./img/m.svg" class="btn" id="m" value="m" onClick=clikme(value)>
-            <input type="image" src="./img/n.svg" class="btn" id="n" value="n" onClick=clikme(value)>
-            <input type="image" src="./img/o.svg" class="btn" id="o" value="o" onClick=clikme(value)>
-            <input type="image" src="./img/p.svg" class="btn" id="p" value="p" onClick=clikme(value)>
-            <input type="image" src="./img/q.svg" class="btn" id="q" value="q" onClick=clikme(value)>
-            <input type="image" src="./img/r.svg" class="btn" id="r" value="r" onClick=clikme(value)>
-            <input type="image" src="./img/s.svg" class="btn" id="s" value="s" onClick=clikme(value)>
-            <input type="image" src="./img/t.svg" class="btn" id="t" value="t" onClick=clikme(value)>
-            <input type="image" src="./img/u.svg" class="btn" id="u" value="u" onClick=clikme(value)>
-            <input type="image" src="./img/v.svg" class="btn" id="v" value="v" onClick=clikme(value)>
-            <input type="image" src="./img/w.svg" class="btn" id="w" value="w" onClick=clikme(value)>
-            <input type="image" src="./img/x.svg" class="btn" id="x" value="x" onClick=clikme(value)>
-            <input type="image" src="./img/y.svg" class="btn" id="y" value="y" onClick=clikme(value)>
-            <input type="image" src="./img/z.svg" class="btn" id="z" value="z" onClick=clikme(value)>
+    <div class="text-to-icon">
+        <div>
+            <input type="text" id="input-icon">
+            <p>Chọn icon bên phải để chuyển sang chữ</p>
         </div>
+        <div style="width: 250px">
+            <input type="image" src="./img/a.svg" class="btn" id="a" value="a" onClick=toText(value)>
+            <input type="image" src="./img/b.svg" class="btn" id="b" value="b" onClick=toText(value)>
+            <input type="image" src="./img/c.svg" class="btn" id="c" value="c" onClick=toText(value)>
+            <input type="image" src="./img/d.svg" class="btn" id="d" value="d" onClick=toText(value)>
+            <input type="image" src="./img/e.svg" class="btn" id="e" value="e" onClick=toText(value)>
+            <input type="image" src="./img/f.svg" class="btn" id="f" value="f" onClick=toText(value)>
+            <input type="image" src="./img/g.svg" class="btn" id="g" value="g" onClick=toText(value)>
+            <input type="image" src="./img/h.svg" class="btn" id="h" value="h" onClick=toText(value)>
+            <input type="image" src="./img/i.svg" class="btn" id="i" value="i" onClick=toText(value)>
+            <input type="image" src="./img/k.svg" class="btn" id="k" value="k" onClick=toText(value)>
+            <input type="image" src="./img/l.svg" class="btn" id="l" value="l" onClick=toText(value)>
+            <input type="image" src="./img/m.svg" class="btn" id="m" value="m" onClick=toText(value)>
+            <input type="image" src="./img/n.svg" class="btn" id="n" value="n" onClick=toText(value)>
+            <input type="image" src="./img/o.svg" class="btn" id="o" value="o" onClick=toText(value)>
+            <input type="image" src="./img/p.svg" class="btn" id="p" value="p" onClick=toText(value)>
+            <input type="image" src="./img/q.svg" class="btn" id="q" value="q" onClick=toText(value)>
+            <input type="image" src="./img/r.svg" class="btn" id="r" value="r" onClick=toText(value)>
+            <input type="image" src="./img/s.svg" class="btn" id="s" value="s" onClick=toText(value)>
+            <input type="image" src="./img/t.svg" class="btn" id="t" value="t" onClick=toText(value)>
+            <input type="image" src="./img/u.svg" class="btn" id="u" value="u" onClick=toText(value)>
+            <input type="image" src="./img/v.svg" class="btn" id="v" value="v" onClick=toText(value)>
+            <input type="image" src="./img/w.svg" class="btn" id="w" value="w" onClick=toText(value)>
+            <input type="image" src="./img/x.svg" class="btn" id="x" value="x" onClick=toText(value)>
+            <input type="image" src="./img/y.svg" class="btn" id="y" value="y" onClick=toText(value)>
+            <input type="image" src="./img/z.svg" class="btn" id="z" value="z" onClick=toText(value)>
+        </div>
+        <div id="src"></div>
     </div>
+    <!--Botton part-->
+    <hr>
+    <div class="icon-to-text">
+        <input type="text" id="input-text">
+        <div id="icon-field"></div>
+    </div>
+    <button id="transform" onclick="toIcon()">Chuyển sang icon</button>
     <script src="index.js"></script>
 </body>
 

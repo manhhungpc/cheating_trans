@@ -1,15 +1,25 @@
-.container{
-    margin: 50px 0;
-    display: flex;
-    justify-content: center;
+.text-to-icon,
+.icon-to-text {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
-.btn{
-    height: 40px;
-    width: 40px;
+.btn {
+  height: 40px;
+  width: 40px;
 }
-#input-text{
-    height: 100px;
-    width: 400px;
-    display: inline;
-    margin-right: 20px;
+#input-text,
+#input-icon {
+  height: 100px;
+  width: 400px;
+  display: inline;
+  margin-right: 20px;
+}
+#icon-field {
+  width: 250px;
+}
+#transform {
+  position: relative;
+  left: 46%;
+  margin-top: 10px;
 }
