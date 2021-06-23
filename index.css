@@ -1,0 +1,15 @@
+.container{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    height: 40px;
+    width: 40px;
+}
+#input-text{
+    height: 100px;
+    width: 400px;
+    display: inline;
+    margin-right: 20px;
+}
